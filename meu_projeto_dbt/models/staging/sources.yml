@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dados
+    database: dados  # Nome do banco de dados no MySQL
+    schema: dados
+    tables:
+      - name: dados_ficha_a_desafio
+        description: "Tabela original carregada no MySQL"
+

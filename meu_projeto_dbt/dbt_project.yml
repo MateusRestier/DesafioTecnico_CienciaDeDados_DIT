@@ -1,0 +1,29 @@
+# Nome do projeto DBT
+name: 'meu_projeto_dbt'
+version: '1.0.0'
+config-version: 2
+
+# Define o profile a ser utilizado
+profile: 'meu_projeto_dbt'
+
+# Configurações de diretórios do DBT
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+# Diretórios a serem limpos pelo `dbt clean`
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Configuração dos modelos
+models:
+  meu_projeto_dbt:
+    staging:   
+      +materialized: view
+    marts:    
+      +materialized: table
+

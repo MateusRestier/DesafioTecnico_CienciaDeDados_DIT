@@ -1,0 +1,75 @@
+[0m09:05:09.255731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1E4C0C560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1E4C0F3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1E4C0E9F0>]}
+
+
+============================== 09:05:09.259731 | 5998452a-c4a1-4987-acc2-361f2cf6836f ==============================
+[0m09:05:09.259731 [info ] [MainThread]: Running with dbt=1.7.9
+[0m09:05:09.260733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Mateus\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init meu_projeto_dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:05:09.261732 [debug] [MainThread]: Starter project path: C:\Users\Mateus\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m09:05:09.280730 [info ] [MainThread]: 
+Your new dbt project "meu_projeto_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:05:09.281729 [info ] [MainThread]: Setting up your profile.
+[0m09:05:09.284732 [debug] [MainThread]: Command `dbt init` succeeded at 09:05:09.284732 after 0.11 seconds
+[0m09:05:09.285731 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1E4AF3E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1DE514EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1E4AADC70>]}
+[0m09:05:09.285731 [debug] [MainThread]: Flushing usage events
+[0m09:05:37.240300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08DA3B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08BC33B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08DA1910>]}
+
+
+============================== 09:05:37.244301 | 2856dd3b-0b94-4bb8-823b-9f80b762ff8f ==============================
+[0m09:05:37.244301 [info ] [MainThread]: Running with dbt=1.7.9
+[0m09:05:37.245301 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mateus\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:05:37.246302 [info ] [MainThread]: dbt version: 1.7.9
+[0m09:05:37.246302 [info ] [MainThread]: python version: 3.12.8
+[0m09:05:37.246302 [info ] [MainThread]: python path: C:\Users\Mateus\AppData\Local\Programs\Python\Python312\python.exe
+[0m09:05:37.247302 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m09:05:37.328303 [info ] [MainThread]: Using profiles dir at C:\Users\Mateus\.dbt
+[0m09:05:37.328303 [info ] [MainThread]: Using profiles.yml file at C:\Users\Mateus\.dbt\profiles.yml
+[0m09:05:37.329302 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Mateus\Desktop\teste prefeitura\dbt_project.yml
+[0m09:05:37.330302 [info ] [MainThread]: adapter type: mysql
+[0m09:05:37.331301 [info ] [MainThread]: adapter version: 1.7.0
+[0m09:05:37.331301 [info ] [MainThread]: Configuration:
+[0m09:05:37.332301 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:05:37.332301 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:05:37.332301 [info ] [MainThread]: Required dependencies:
+[0m09:05:37.333301 [debug] [MainThread]: Executing "git --help"
+[0m09:05:37.354301 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:05:37.355302 [debug] [MainThread]: STDERR: "b''"
+[0m09:05:37.355302 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:05:37.356305 [info ] [MainThread]: Connection:
+[0m09:05:37.356305 [info ] [MainThread]:   server: localhost
+[0m09:05:37.357302 [info ] [MainThread]:   unix_socket: None
+[0m09:05:37.357302 [info ] [MainThread]:   port: 3306
+[0m09:05:37.357302 [info ] [MainThread]:   database: None
+[0m09:05:37.358301 [info ] [MainThread]:   schema: dados
+[0m09:05:37.358301 [info ] [MainThread]:   user: mateusr
+[0m09:05:37.359302 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m09:05:37.359302 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m09:05:37.360303 [debug] [MainThread]: Using mysql connection "debug"
+[0m09:05:37.360303 [debug] [MainThread]: On debug: select 1 as id
+[0m09:05:37.360303 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:05:37.372301 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m09:05:37.374301 [debug] [MainThread]: On debug: Close
+[0m09:05:37.374301 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:05:37.375302 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:05:37.375302 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Mateus\Desktop\teste prefeitura\dbt_project.yml> not found
+
+[0m09:05:37.376302 [debug] [MainThread]: Command `dbt debug` failed at 09:05:37.376302 after 0.21 seconds
+[0m09:05:37.376302 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:05:37.376302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08C66E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08C99C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026D08C98B30>]}
+[0m09:05:37.377301 [debug] [MainThread]: Flushing usage events
