@@ -3,3 +3,5 @@ Apresentação Desafio.pptx - Arquivo da apresentação do desafio, explicando o
 Análisedataset.py - Código em Python que realiza a primeira análise do dataset, facilitando uma primeira análise do arquivo (dados_ficha_a_desafio.csv).
 
 LoadSQL.py - Código em Python que realiza a carga do arquivo CSV para um banco de dados MySQL.
+
+Os scripts de normalização estão em 'meu_projeto_dbt, models, staging'
