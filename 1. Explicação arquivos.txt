@@ -1,4 +1,4 @@
-Apresentação Desafio.pptx - Arquivo da apresentação do desafio, explicando o problema e a solução proposta.
+Apresentação Desafio.pptx - Arquivo da apresentação do desafio, explicando o problema e a solução proposta, com prints do resultado.
 
 Análisedataset.py - Código em Python que realiza a primeira análise do dataset, facilitando uma primeira análise do arquivo (dados_ficha_a_desafio.csv).
 
